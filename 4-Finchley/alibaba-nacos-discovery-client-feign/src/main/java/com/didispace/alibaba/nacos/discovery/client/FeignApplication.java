@@ -18,10 +18,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
-public class TestApplication {
+public class FeignApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(FeignApplication.class, args);
     }
 
     @Slf4j

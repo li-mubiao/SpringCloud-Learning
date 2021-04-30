@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-public class TestApplication {
+public class ConfigClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(ConfigClientApplication.class, args);
     }
 
     @Slf4j

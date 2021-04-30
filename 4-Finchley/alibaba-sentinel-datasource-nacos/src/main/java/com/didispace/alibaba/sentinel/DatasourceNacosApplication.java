@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-public class TestApplication {
+public class DatasourceNacosApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(DatasourceNacosApplication.class, args);
     }
 
     @Slf4j

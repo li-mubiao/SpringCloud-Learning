@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableApolloConfig
 @SpringBootApplication
-public class TestApplication {
+public class DatasourceApolloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(DatasourceApolloApplication.class, args);
     }
 
     @Slf4j

@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class TestApplication {
+public class ServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(ServerApplication.class, args);
     }
 
     @Slf4j

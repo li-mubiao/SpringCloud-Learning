@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-public class TestApplication {
+public class LimitingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class, args);
+        SpringApplication.run(LimitingApplication.class, args);
     }
 
     @Slf4j
