@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class DubboClientApplication {
+    /**
+     * 启动方式
+     * -Djava.net.preferIPv4Stack=true -Dcsp.sentinel.api.port=8001 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=alibaba-dubbo-server
+     * -Djava.net.preferIPv4Stack=true -Dcsp.sentinel.api.port=8002 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=alibaba-dubbo-client
+     */
 
     public static void main(String[] args) {
         SpringApplication.run(DubboClientApplication.class, args);
